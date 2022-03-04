@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.8](https://github.com/Vbobell/design-system/compare/@vbobel/design-system-ui-styles@0.0.7...@vbobel/design-system-ui-styles@0.0.8) (2022-03-04)
+
+
+### Bug Fixes
+
+* add miss packages to use postcss import ([08a8774](https://github.com/Vbobell/design-system/commit/08a8774be233b95688f9517117336cc54f7b3044))
+
+
+
+
+
 ## [0.0.7](https://github.com/Vbobell/design-system/compare/@vbobel/design-system-ui-styles@0.0.6...@vbobel/design-system-ui-styles@0.0.7) (2022-03-04)
 
 
