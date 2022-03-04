@@ -2,7 +2,7 @@
   "name": "@vbobel/design-system",
   "private": false,
   "scripts": {
-    "release": "lerna publish --conventional-commits --conventional-graduate --dist-tag latest"
+    "release": "lerna publish --conventional-commits --dist-tag latest"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
