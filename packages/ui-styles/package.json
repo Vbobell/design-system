@@ -17,7 +17,8 @@
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
-    "build": "postcss --output css/design-system-ui-styles.css src/styles.css"
+    "build": "postcss --output css/design-system-ui-styles.css src/styles.css",
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "postcss": "^8.4.7"
