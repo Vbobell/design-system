@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.5](https://github.com/Vbobell/design-system/compare/@vbobel/design-system-ui-styles@0.0.4...@vbobel/design-system-ui-styles@0.0.5) (2022-03-04)
+
+
+### Bug Fixes
+
+* chage publish config ([5794452](https://github.com/Vbobell/design-system/commit/5794452e65c5c84b06c135ac2f88169e581df8a1))
+* refactor past to generate css ([5655db2](https://github.com/Vbobell/design-system/commit/5655db2b0739294797c609125844fb1f33998e6c))
+
+
+
+
+
 ## [0.0.4](https://github.com/Vbobell/design-system/compare/@vbobel/design-system-ui-styles@0.0.3...@vbobel/design-system-ui-styles@0.0.4) (2022-03-04)
 
 
