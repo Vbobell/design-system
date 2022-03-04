@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.6](https://github.com/Vbobell/design-system/compare/@vbobel/design-system-ui-styles@0.0.5...@vbobel/design-system-ui-styles@0.0.6) (2022-03-04)
+
+
+### Bug Fixes
+
+* add repository to package ([3d960ea](https://github.com/Vbobell/design-system/commit/3d960eaa2c2e4030769517f2b562705fb5dd97df))
+
+
+
+
+
 ## [0.0.5](https://github.com/Vbobell/design-system/compare/@vbobel/design-system-ui-styles@0.0.4...@vbobel/design-system-ui-styles@0.0.5) (2022-03-04)
 
 
