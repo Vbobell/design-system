@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/Vbobell/design-system/compare/@vbobel/design-system-react-ui@1.1.0...@vbobel/design-system-react-ui@1.1.1) (2022-03-04)
+
+
+### Bug Fixes
+
+* release react ui ([8aac0cd](https://github.com/Vbobell/design-system/commit/8aac0cda943118a769b29ce8d85b07b5a6b0477b))
+
+
+
+
+
 # 1.1.0 (2022-03-04)
 
 
