@@ -26,8 +26,11 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.2",
     "postcss": "^8.4.7",
-    "postcss-cli": "^9.1.0"
+    "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.0.2",
+    "postcss-nested": "^5.0.6"
   },
   "gitHead": "ab10b76adfae91ac60ba19d8fc735bb9b6222584"
 }
