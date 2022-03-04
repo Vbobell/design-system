@@ -6,7 +6,7 @@
   "homepage": "",
   "license": "ISC",
   "main": "src/styles.css",
-  "private": false,
+  "private": true,
   "directories": {
     "src": "src"
   },
@@ -22,5 +22,5 @@
   "devDependencies": {
     "postcss": "^8.4.7"
   },
-  "gitHead": "874e08640aafa9821ac688738a48d3c306d740be"
+  "gitHead": "ab10b76adfae91ac60ba19d8fc735bb9b6222584"
 }

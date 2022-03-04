@@ -1,6 +1,6 @@
 {
   "name": "@vbobel/design-system",
-  "private": false,
+  "private": true,
   "scripts": {
     "release": "lerna publish --conventional-commits --dist-tag latest"
   },
