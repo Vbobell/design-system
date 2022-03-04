@@ -1,11 +1,12 @@
 {
   "name": "@vbobel/design-system-ui-styles",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "> TODO: description",
   "author": "VBobell <vinicius.leite@gamersclub.com.br>",
   "homepage": "",
   "license": "ISC",
   "main": "src/styles.css",
+  "private": false,
   "directories": {
     "src": "src"
   },
@@ -20,5 +21,6 @@
   },
   "devDependencies": {
     "postcss": "^8.4.7"
-  }
+  },
+  "gitHead": "874e08640aafa9821ac688738a48d3c306d740be"
 }
