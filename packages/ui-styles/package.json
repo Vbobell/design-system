@@ -21,7 +21,8 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "postcss": "^8.4.7"
+    "postcss": "^8.4.7",
+    "postcss-cli": "^9.1.0"
   },
   "gitHead": "ab10b76adfae91ac60ba19d8fc735bb9b6222584"
 }
