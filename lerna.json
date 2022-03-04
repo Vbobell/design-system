@@ -1,0 +1,16 @@
+{
+  "version": "independent",
+  "packages": ["packages/*"],
+  "command": {
+    "bootstrap": {
+      "registry": "https://registry.npmjs.org"
+    },
+    "publish": {
+      "ignoreChanges": ["ignored-file", "*.md"],
+      "registry": "https://registry.npmjs.org"
+    },
+    "version": {
+      "message": "chore(release): publish"
+    }
+  }
+}

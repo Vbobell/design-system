@@ -1,0 +1,24 @@
+{
+  "name": "@vbobel/design-system-ui-styles",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "VBobell <vinicius.leite@gamersclub.com.br>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/styles.css",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "build": "postcss --output css/design-system-ui-styles.css src/styles.css"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.7"
+  }
+}
