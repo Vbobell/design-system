@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/Vbobell/design-system/compare/@vbobel/design-system-react-ui@1.1.1...@vbobel/design-system-react-ui@1.1.2) (2022-03-04)
+
+
+### Bug Fixes
+
+* add tslib ([007d25d](https://github.com/Vbobell/design-system/commit/007d25df6764454184087d959a2315ea358b7422))
+
+
+
+
+
 ## [1.1.1](https://github.com/Vbobell/design-system/compare/@vbobel/design-system-react-ui@1.1.0...@vbobel/design-system-react-ui@1.1.1) (2022-03-04)
 
 
