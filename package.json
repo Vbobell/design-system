@@ -1,6 +1,5 @@
 {
   "name": "@vbobel/design-system",
-  "private": true,
   "scripts": {
     "build": "lerna exec --scope=@vbobel/design-system-ui-styles -- npm run build",
     "prerelease": "npm run build",
