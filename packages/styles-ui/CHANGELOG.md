@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.2 (2022-03-04)
+
+
+### Bug Fixes
+
+* **styles-ui:** change package name and path ([35f2fe2](https://github.com/Vbobell/design-system/commit/35f2fe275942e61918eb7b4a13af93347c26e0fc))
+
+
+
+
+
 ## [0.0.8](https://github.com/Vbobell/design-system/compare/@vbobel/design-system-ui-styles@0.0.7...@vbobel/design-system-ui-styles@0.0.8) (2022-03-04)
 
 
