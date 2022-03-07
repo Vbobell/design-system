@@ -1,9 +1,11 @@
 {
   "name": "@vbobel/design-system",
   "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
     "build": "npm run build:styles-ui && npm run build:react-ui",
     "build:styles-ui": "lerna exec --scope=@vbobel/design-system-styles-ui -- npm run build",
     "build:react-ui": "lerna exec --scope=@vbobel/design-system-react-ui -- npm run build",
+    "clean": "lerna clean",
     "prerelease": "npm run build",
     "release": "lerna publish --conventional-commits --dist-tag latest"
   },
