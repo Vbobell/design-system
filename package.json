@@ -6,6 +6,7 @@
     "build:styles-ui": "lerna exec --scope=@vbobel/design-system-styles-ui -- npm run build",
     "build:react-ui": "lerna exec --scope=@vbobel/design-system-react-ui -- npm run build",
     "clean": "lerna clean",
+    "dev": "lerna run dev",
     "prerelease": "npm run build",
     "release": "lerna publish --conventional-commits --dist-tag latest",
     "storybook": "lerna run --parallel storybook"

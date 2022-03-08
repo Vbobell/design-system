@@ -23,7 +23,8 @@
   },
   "scripts": {
     "build": "postcss --output css/design-system-styles-ui.css src/styles.css",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "dev": "postcss --output css/design-system-styles-ui.css src/styles.css --watch"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
