@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/Vbobell/design-system/compare/@vbobel/design-system-react-ui@1.1.3...@vbobel/design-system-react-ui@1.2.0) (2022-03-08)
+
+
+### Bug Fixes
+
+* **react-ui:** add peer dep styles-ui ([8030bc6](https://github.com/Vbobell/design-system/commit/8030bc6f16e4be2283914b872de0a79b6f915860))
+
+
+### Features
+
+* add storybook to packages ([1fb4e96](https://github.com/Vbobell/design-system/commit/1fb4e96a10ec8401091f6b60aaccaddc16099a20))
+
+
+
+
+
 ## [1.1.3](https://github.com/Vbobell/design-system/compare/@vbobel/design-system-react-ui@1.1.2...@vbobel/design-system-react-ui@1.1.3) (2022-03-04)
 
 
