@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.2](https://github.com/Vbobell/design-system/compare/@vbobel/design-system-react-ui@1.2.1...@vbobel/design-system-react-ui@1.2.2) (2022-03-08)
+
+
+### Bug Fixes
+
+* **react-ui:** add react to peer deps ([4fdcf9d](https://github.com/Vbobell/design-system/commit/4fdcf9dadf33258c1b7f6b77bb71057ea9aec085))
+
+
+
+
+
 ## [1.2.1](https://github.com/Vbobell/design-system/compare/@vbobel/design-system-react-ui@1.2.0...@vbobel/design-system-react-ui@1.2.1) (2022-03-08)
 
 
