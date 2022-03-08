@@ -1,7 +1,7 @@
-import "@vbobel/design-system-styles-ui/css/design-system-styles-ui.css";
+import '@vbobel/design-system-styles-ui/css/design-system-styles-ui.css';
 
 export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" },
+  actions: { argTypesRegex: '^on[A-Z].*' },
   controls: {
     matchers: {
       color: /(background|color)$/i,

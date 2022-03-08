@@ -8,10 +8,12 @@
     "clean": "lerna clean",
     "dev": "lerna run dev",
     "prerelease": "npm run build",
+    "prettier": "prettier --write .",
     "release": "lerna publish --conventional-commits --dist-tag latest",
     "storybook": "lerna run --parallel storybook"
   },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "prettier": "^2.5.1"
   }
 }
