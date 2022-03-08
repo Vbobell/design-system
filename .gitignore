@@ -130,4 +130,4 @@ dist
 .pnp.*
 
 #packages
-packages/styles-ui/css/
+packages/**/css/
