@@ -12,6 +12,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "declaration": true,
-    "declarationDir": "dist"
+    "declarationDir": "dist",
+    "rootDir": "./src"
   }
 }

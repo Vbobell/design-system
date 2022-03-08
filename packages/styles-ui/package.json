@@ -5,7 +5,7 @@
   "author": "VBobell <vinicius.leite@gamersclub.com.br>",
   "homepage": "",
   "license": "ISC",
-  "main": "dist/css/design-system-styles-ui.css",
+  "main": "css/design-system-styles-ui.css",
   "repository": {
     "type": "git",
     "url": "https://github.com/Vbobell/design-system.git",
@@ -15,14 +15,14 @@
     "src": "src"
   },
   "files": [
-    "dist/css"
+    "css"
   ],
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
-    "build": "postcss --output dist/css/design-system-styles-ui.css src/styles.css",
+    "build": "postcss --output css/design-system-styles-ui.css src/styles.css",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
