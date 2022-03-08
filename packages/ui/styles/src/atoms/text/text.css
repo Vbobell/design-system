@@ -1,4 +1,3 @@
 .text {
-  color: blue;
-  font-size: 2rem;
+  @apply text-xl;
 }
