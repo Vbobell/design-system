@@ -19,12 +19,12 @@ jobs:
 
       - name: Init new repo in storybook folder and commit generated files
       - run: |
-        cd packages/ui/react/storybook-static
-        git init
-        git add -A
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git commit -m 'deploy'
+          cd packages/ui/react/storybook-static
+          git init
+          git add -A
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m 'deploy'
 
       - name: Publish github page
         uses: ad-m/github-push-action@v0.5.0
