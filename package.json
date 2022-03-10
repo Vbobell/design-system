@@ -11,7 +11,7 @@
     "prettier": "prettier --write .",
     "release": "lerna publish --conventional-commits --dist-tag latest",
     "storybook": "lerna run --parallel storybook",
-    "publish-storybook": "lerna run --parallel deploy-storybook"
+    "deploy-storybook": "lerna run --parallel deploy-storybook"
   },
   "devDependencies": {
     "gh-pages": "^3.2.3",
