@@ -3,7 +3,7 @@
   "version": "1.2.2",
   "description": "> TODO: description",
   "author": "VBobell <vinicius.leite@gamersclub.com.br>",
-  "homepage": "https://github.com/Vbobell/design-system/packages/react-ui#readme",
+  "homepage": "https://vbobell.github.io/design-system/react-ui",
   "license": "ISC",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -29,7 +29,8 @@
     "prepublishOnly": "npm run build",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "publish-storybook": "npm run build-storybook && npx sb extract"
+    "predeploy": "npm run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static"
   },
   "bugs": {
     "url": "https://github.com/Vbobell/design-system/issues"
@@ -49,6 +50,7 @@
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.13",
     "babel-loader": "^8.2.3",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "rollup": "^2.69.1",
