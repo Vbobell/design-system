@@ -15,7 +15,7 @@ jobs:
           node-version: '16'
       - run: npm run bootstrap
       - run: npm run build
-      - run: npm run publish-storybook
+      - run: npm run deploy-storybook
 
       - name: Publish github page
         uses: ad-m/github-push-action@v0.5.0
@@ -23,4 +23,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
           force: true
-          directory: ./packages/ui/react/storybook-static
+          folder: ./packages/ui/react/storybook-static
+          target_folder: docs
