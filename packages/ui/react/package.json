@@ -30,7 +30,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "predeploy": "npm run build-storybook",
-    "deploy-storybook": "gh-pages -d storybook-static"
+    "deploy-storybook": "npm run predeploy && gh-pages -d storybook-static"
   },
   "bugs": {
     "url": "https://github.com/Vbobell/design-system/issues"
