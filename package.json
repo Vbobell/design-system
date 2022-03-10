@@ -10,7 +10,8 @@
     "prerelease": "npm run build",
     "prettier": "prettier --write .",
     "release": "lerna publish --conventional-commits --dist-tag latest",
-    "storybook": "lerna run --parallel storybook"
+    "storybook": "lerna run --parallel storybook",
+    "publish-storybook": "lerna run --parallel publish-storybook"
   },
   "devDependencies": {
     "lerna": "^4.0.0",
