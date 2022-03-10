@@ -19,7 +19,7 @@ jobs:
 
     - name: Init new repo in dist folder and commit generated files
       run: |
-        cd packages/ui/storybook-static
+        cd docs/packages/ui/storybook-static
         git init
         git add -A
         git config --local user.email "action@github.com"
@@ -32,4 +32,4 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: gh-pages
         force: true
-        directory: ./packages/ui/storybook-static
+        directory: ./docs/packages/ui/storybook-static
