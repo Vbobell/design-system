@@ -17,6 +17,7 @@ jobs:
     - run: npm run build
     - run: npm run deploy-storybook
     
+    - uses: actions/checkout@master
     - name: Copy pages to docs
       run: |
         cp packages/ui/react/storybook-static/* /
