@@ -18,8 +18,9 @@ jobs:
     - run: npm run deploy-storybook
     
     - name: Copy pages to docs
-    - run: mkdir docs
-    - run: cp packages/ui/react/storybook-static/* docs
+      run: |
+        mkdir docs
+        cp packages/ui/react/storybook-static/* docs
 
     - name: Init new repo in storybook folder and commit generated files
       run: |
@@ -37,4 +38,3 @@ jobs:
         branch: gh-pages
         force: true
         directory: ./packages/ui/react/storybook-static
-        target_folder: docs
