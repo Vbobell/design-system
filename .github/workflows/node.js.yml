@@ -18,7 +18,7 @@ jobs:
     - run: npm run deploy-storybook
     
     - name: Copy pages to docs
-      run: cp -r packages/ui/react/storybook-static/* /
+      run: cp -r packages/ui/react/storybook-static ./
 
     - name: Init new repo in storybook folder and commit generated files
       run: |
