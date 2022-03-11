@@ -131,3 +131,4 @@ dist
 
 #packages
 packages/**/css/
+packages/**/storybook-static
