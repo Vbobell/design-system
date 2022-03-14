@@ -129,6 +129,9 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+#storybook
+storybook-static
+
 #packages
 packages/**/css/
 packages/**/storybook-static

@@ -14,13 +14,16 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: '16'
+    - run: npm run ci
     - run: npm run bootstrap
     - run: npm run build
     - run: npm run deploy-storybook
+    - run: npm run deploy-storybook:main
 
     - name: Copy pages to docs
       run: |
         mkdir -p ui
+        cp -r storybook-static ./ui
         cp -r packages/ui/react/storybook-static ./ui/react
         cp -r packages/ui/styles/storybook-static ./ui/styles
 

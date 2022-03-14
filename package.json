@@ -10,10 +10,20 @@
     "prerelease": "npm run build",
     "prettier": "prettier --write .",
     "release": "lerna publish --conventional-commits --dist-tag latest",
+    "storybook:main": "start-storybook -p 6000",
     "storybook": "lerna run --parallel storybook",
-    "deploy-storybook": "lerna run --parallel deploy-storybook"
+    "deploy-storybook": "lerna run --parallel deploy-storybook",
+    "deploy-storybook:main": "npm run build-storybook && npx sb extract",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-links": "^6.4.19",
+    "@storybook/server": "^6.4.19",
+    "@storybook/theming": "^6.4.19",
+    "babel-loader": "^8.2.3",
     "lerna": "^4.0.0",
     "prettier": "^2.5.1"
   }
