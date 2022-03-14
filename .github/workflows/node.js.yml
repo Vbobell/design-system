@@ -21,8 +21,6 @@ jobs:
     - name: Copy pages to docs
       run: |
         mkdir -p ui
-        mkdir -p react
-        mkdir -p styles
         cp -r packages/ui/react/storybook-static ./ui/react
         cp -r packages/ui/styles/storybook-static ./ui/styles
 
@@ -41,4 +39,4 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: gh-pages
         force: true
-        directory: ./packages/ui
+        directory: ./ui
