@@ -25,7 +25,7 @@ jobs:
 
     - name: Init new repo in storybook folder and commit generated files
       run: |
-        cd packages/ui/react/storybook-static
+        cd packages/ui
         git init
         git add -A
         git config --local user.email "action@github.com"
