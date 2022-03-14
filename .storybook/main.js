@@ -1,7 +1,7 @@
 module.exports = {
-  stories: ['../stories/**/*.stories.mdx', '../stories/**/*.stories.@(json)'],
+  stories: ['../stories/**/*.stories.mdx', '../stories/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: ['@storybook/addon-links', '@storybook/addon-essentials'],
-  framework: '@storybook/server',
+  framework: '@storybook/html',
   refs: {
     '@vbobel/design-system-react-ui': {
       title: '@vbobel/design-system-react-ui',

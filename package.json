@@ -16,14 +16,17 @@
     "deploy-storybook:main": "npm run build-storybook && npx sb extract",
     "build-storybook": "build-storybook"
   },
+  "storybook": {
+    "url": "https://vbobell.github.io/design-system"
+  },
   "devDependencies": {
     "@babel/core": "^7.17.7",
-    "@storybook/addon-actions": "^6.4.19",
     "@storybook/addon-docs": "^6.4.19",
+    "@storybook/theming": "^6.4.19",
+    "@storybook/addon-actions": "^6.4.19",
     "@storybook/addon-essentials": "^6.4.19",
     "@storybook/addon-links": "^6.4.19",
-    "@storybook/server": "^6.4.19",
-    "@storybook/theming": "^6.4.19",
+    "@storybook/html": "^6.4.19",
     "babel-loader": "^8.2.3",
     "lerna": "^4.0.0",
     "prettier": "^2.5.1"

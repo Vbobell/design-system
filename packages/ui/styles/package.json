@@ -29,6 +29,9 @@
     "build-storybook": "build-storybook",
     "deploy-storybook": "npm run build-storybook && npx sb extract"
   },
+  "storybook": {
+    "url": "https://vbobell.github.io/design-system/react"
+  },
   "devDependencies": {
     "@babel/core": "^7.17.5",
     "@storybook/addon-actions": "^6.4.19",
