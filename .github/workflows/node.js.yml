@@ -20,12 +20,12 @@ jobs:
 
     - name: Copy pages to docs
       run: |
-        cp -r packages/ui/react/storybook-static ./react
-        cp -r packages/ui/styles/storybook-static ./styles
+        cp -r packages/ui/react/storybook-static ./ui/react
+        cp -r packages/ui/styles/storybook-static ./ui/styles
 
     - name: Init new repo in storybook folder and commit generated files
       run: |
-        cd packages/ui
+        cd ui
         git init
         git add -A
         git config --local user.email "action@github.com"
