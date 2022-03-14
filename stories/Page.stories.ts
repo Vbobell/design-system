@@ -8,4 +8,5 @@ const Template = () => {
   return createPage();
 };
 
-export const Primary = Template.bind({});
+export const Page = Template.bind({});
+Page.args = {};
