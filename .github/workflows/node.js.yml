@@ -23,6 +23,7 @@ jobs:
         mkdir -p ui
         cp -r packages/ui/styles/storybook-static/* ./ui
         cp -r packages/ui/react/storybook-static ./ui/react
+        cp -r packages/ui/style/storybook-static ./ui/style
 
     - name: Init new repo in storybook folder and commit generated files
       run: |
