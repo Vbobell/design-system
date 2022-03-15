@@ -1,3 +1,5 @@
 dist
 build
 storybook-static
+package-lock.json
+*.md
