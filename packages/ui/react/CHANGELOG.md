@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.1](https://github.com/Vbobell/design-system/compare/@vbobel/design-system-react-ui@1.3.0...@vbobel/design-system-react-ui@1.3.1) (2022-03-15)
+
+
+### Bug Fixes
+
+* add change log ([9cea05d](https://github.com/Vbobell/design-system/commit/9cea05dc33540c69aabac9a8d20f67b2593c8746))
+
+
+
+
+
 # [1.3.0](https://github.com/Vbobell/design-system/compare/@vbobel/design-system-react-ui@1.2.2...@vbobel/design-system-react-ui@1.3.0) (2022-03-15)
 
 ### Bug Fixes

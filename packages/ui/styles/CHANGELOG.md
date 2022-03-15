@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/Vbobell/design-system/compare/@vbobel/design-system-styles-ui@0.2.0...@vbobel/design-system-styles-ui@0.2.1) (2022-03-15)
+
+
+### Bug Fixes
+
+* add change log ([9cea05d](https://github.com/Vbobell/design-system/commit/9cea05dc33540c69aabac9a8d20f67b2593c8746))
+
+
+
+
+
 # [0.2.0](https://github.com/Vbobell/design-system/compare/@vbobel/design-system-styles-ui@0.1.2...@vbobel/design-system-styles-ui@0.2.0) (2022-03-15)
 
 ### Bug Fixes
