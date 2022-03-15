@@ -5,7 +5,7 @@ module.exports = {
   refs: {
     '@vbobel/design-system-styles-ui': {
       title: '@vbobel/design-system-styles-ui',
-      url: 'https://vbobell.github.io/design-system',
+      url: 'https://vbobell.github.io/design-system/styles',
     },
   },
 };
