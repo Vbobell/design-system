@@ -21,7 +21,7 @@ jobs:
     - name: Copy pages to docs
       run: |
         mkdir -p ui
-        cp -r packages/ui/styles/storybook-static* ./ui
+        cp -r packages/ui/styles/storybook-static/* ./ui
         cp -r packages/ui/react/storybook-static ./ui/react
 
     - name: Init new repo in storybook folder and commit generated files
