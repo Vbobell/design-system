@@ -25,7 +25,7 @@
     "build": "postcss --output css/design-system-styles-ui.css src/styles.css",
     "prepublishOnly": "npm run build",
     "dev": "postcss --output css/design-system-styles-ui.css src/styles.css --watch --verbose",
-    "storybook": "start-storybook -p 6002",
+    "storybook": "start-storybook -p 6008",
     "build-storybook": "build-storybook",
     "deploy-storybook": "npm run build-storybook && npx sb extract"
   },
