@@ -5,27 +5,21 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [0.2.0](https://github.com/Vbobell/design-system/compare/@vbobel/design-system-styles-ui@0.1.2...@vbobel/design-system-styles-ui@0.2.0) (2022-03-15)
 
-
 ### Bug Fixes
 
-* add deploy command ([ac20956](https://github.com/Vbobell/design-system/commit/ac209568104e0fd8ece39c9eee92618ee70670ee))
-* add deploy command ([fc299d9](https://github.com/Vbobell/design-system/commit/fc299d9201ff90a8c6f91e02ee8e468012f7c2ac))
-* change storybook config ([61f4a7a](https://github.com/Vbobell/design-system/commit/61f4a7a4d5130dab2bc26c21c4a222adb1b5fa44))
-* change storybook main to package styles ([7ba991b](https://github.com/Vbobell/design-system/commit/7ba991b6cc8b8a59f0488c2f11684731e71acbd0))
-* change storybook refs ([1807fc0](https://github.com/Vbobell/design-system/commit/1807fc0bc330586eca4eed6a9dc36b49a890cb89))
-* change storybook refs ([f34b338](https://github.com/Vbobell/design-system/commit/f34b3382282bbb3886e7d64419d9b477d9668fd4))
-* create md file ([9c58d21](https://github.com/Vbobell/design-system/commit/9c58d214a38c909248222981cb67d2b2acca6117))
-* refactor main storybook ([c5ada7b](https://github.com/Vbobell/design-system/commit/c5ada7b210bad8e2b94baae1c643b568695e778d))
-
+- add deploy command ([ac20956](https://github.com/Vbobell/design-system/commit/ac209568104e0fd8ece39c9eee92618ee70670ee))
+- add deploy command ([fc299d9](https://github.com/Vbobell/design-system/commit/fc299d9201ff90a8c6f91e02ee8e468012f7c2ac))
+- change storybook config ([61f4a7a](https://github.com/Vbobell/design-system/commit/61f4a7a4d5130dab2bc26c21c4a222adb1b5fa44))
+- change storybook main to package styles ([7ba991b](https://github.com/Vbobell/design-system/commit/7ba991b6cc8b8a59f0488c2f11684731e71acbd0))
+- change storybook refs ([1807fc0](https://github.com/Vbobell/design-system/commit/1807fc0bc330586eca4eed6a9dc36b49a890cb89))
+- change storybook refs ([f34b338](https://github.com/Vbobell/design-system/commit/f34b3382282bbb3886e7d64419d9b477d9668fd4))
+- create md file ([9c58d21](https://github.com/Vbobell/design-system/commit/9c58d214a38c909248222981cb67d2b2acca6117))
+- refactor main storybook ([c5ada7b](https://github.com/Vbobell/design-system/commit/c5ada7b210bad8e2b94baae1c643b568695e778d))
 
 ### Features
 
-* add prettier ([ed891c5](https://github.com/Vbobell/design-system/commit/ed891c5973b3168320beebf406964c17d213dde9))
-* **styles-ui:** add storybook ([9ef816a](https://github.com/Vbobell/design-system/commit/9ef816a7acf95d1a3688dba942d62322fe9747e4))
-
-
-
-
+- add prettier ([ed891c5](https://github.com/Vbobell/design-system/commit/ed891c5973b3168320beebf406964c17d213dde9))
+- **styles-ui:** add storybook ([9ef816a](https://github.com/Vbobell/design-system/commit/9ef816a7acf95d1a3688dba942d62322fe9747e4))
 
 ## [0.1.2](https://github.com/Vbobell/design-system/compare/@vbobel/design-system-styles-ui@0.1.1...@vbobel/design-system-styles-ui@0.1.2) (2022-03-08)
 

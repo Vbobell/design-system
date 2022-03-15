@@ -6,7 +6,6 @@
       "registry": "https://registry.npmjs.org"
     },
     "publish": {
-      "ignoreChanges": ["ignored-file", "*.md"],
       "registry": "https://registry.npmjs.org"
     },
     "version": {
