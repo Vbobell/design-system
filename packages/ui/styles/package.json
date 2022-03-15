@@ -1,6 +1,6 @@
 {
   "name": "@vbobel/design-system-styles-ui",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "> TODO: description",
   "author": "VBobell <vinicius.leite@gamersclub.com.br>",
   "homepage": "",
@@ -47,6 +47,5 @@
     "postcss-nested": "^5.0.6",
     "tailwindcss": "^3.0.23"
   },
-  "gitHead": "ab10b76adfae91ac60ba19d8fc735bb9b6222584",
-  "dependencies": {}
+  "gitHead": "ab10b76adfae91ac60ba19d8fc735bb9b6222584"
 }
