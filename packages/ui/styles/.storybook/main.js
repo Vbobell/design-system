@@ -7,7 +7,7 @@ module.exports = {
   refs: {
     '@vbobel/design-system-react-ui': {
       title: '@vbobel/design-system-react-ui',
-      url: 'https://vbobell.github.io/design-system/styles',
+      url: 'https://vbobell.github.io/design-system/react',
     },
   },
   webpackFinal: async (config) => {
