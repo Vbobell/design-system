@@ -30,7 +30,7 @@
     "deploy-storybook": "npm run build-storybook && npx sb extract"
   },
   "storybook": {
-    "url": "https://vbobell.github.io/design-system/react"
+    "url": "https://vbobell.github.io/design-system"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
