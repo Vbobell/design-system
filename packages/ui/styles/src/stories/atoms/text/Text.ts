@@ -1,8 +1,8 @@
-interface textProps {
+interface TextProps {
   text: string;
 }
 
-export function createText({ text }: textProps) {
+export function createText({ text }: TextProps) {
   const textElement = document.createElement('p');
 
   textElement.className = 'text';
