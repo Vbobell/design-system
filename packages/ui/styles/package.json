@@ -39,7 +39,6 @@
     "@storybook/addon-actions": "^7.0.18",
     "@storybook/addon-essentials": "^7.0.18",
     "@storybook/addon-links": "^7.0.18",
-    "@storybook/addon-postcss": "^2.0.0",
     "@storybook/addon-viewport": "^7.0.18",
     "@storybook/html": "^7.0.18",
     "@storybook/html-webpack5": "^7.0.18",
@@ -55,6 +54,7 @@
   },
   "gitHead": "ab10b76adfae91ac60ba19d8fc735bb9b6222584",
   "dependencies": {
+    "@storybook/addon-styling": "^1.0.8",
     "typescript": "^5.1.3"
   }
 }
