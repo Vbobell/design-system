@@ -25,8 +25,8 @@
     "build": "postcss --output css/design-system-styles-ui.css src/styles.css",
     "prepublishOnly": "npm run build",
     "dev": "postcss --output css/design-system-styles-ui.css src/styles.css --watch --verbose",
-    "storybook": "start-storybook -p 6008",
-    "build-storybook": "build-storybook",
+    "storybook": "storybook dev -p 6008",
+    "build-storybook": "storybook build",
     "deploy-storybook": "npm run build-storybook && npx sb extract"
   },
   "storybook": {
@@ -34,14 +34,14 @@
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
-    "@storybook/addon-actions": "^6.4.19",
-    "@storybook/addon-essentials": "^6.4.19",
-    "@storybook/addon-links": "^6.4.19",
+    "@babel/preset-env": "^7.22.4",
+    "@storybook/addon-actions": "^7.0.18",
+    "@storybook/addon-essentials": "^7.0.18",
+    "@storybook/addon-links": "^7.0.18",
     "@storybook/addon-postcss": "^2.0.0",
-    "@storybook/addon-viewport": "^6.4.19",
-    "@storybook/builder-webpack5": "^6.4.19",
-    "@storybook/html": "^6.4.19",
-    "@storybook/manager-webpack5": "^6.4.19",
+    "@storybook/addon-viewport": "^7.0.18",
+    "@storybook/html": "^7.0.18",
+    "@storybook/html-webpack5": "^7.0.18",
     "autoprefixer": "^10.4.2",
     "babel-loader": "^8.2.3",
     "cssnano": "^5.1.1",
@@ -49,7 +49,11 @@
     "postcss-cli": "^9.1.0",
     "postcss-import": "^14.0.2",
     "postcss-nested": "^5.0.6",
+    "storybook": "^7.0.18",
     "tailwindcss": "^3.0.23"
   },
-  "gitHead": "ab10b76adfae91ac60ba19d8fc735bb9b6222584"
+  "gitHead": "ab10b76adfae91ac60ba19d8fc735bb9b6222584",
+  "dependencies": {
+    "typescript": "^5.1.3"
+  }
 }
