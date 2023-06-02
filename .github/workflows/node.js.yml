@@ -13,7 +13,7 @@ jobs:
     - name: Generate static storybook files
       uses: actions/setup-node@v2
       with:
-        node-version: '14'
+        node-version: '18.16.0'
     - run: npm run bootstrap
     - run: npm run build
     - run: npm run deploy-storybook
