@@ -29,7 +29,8 @@
     "prepublishOnly": "npm run build",
     "storybook": "storybook dev -p 6007",
     "build-storybook": "storybook build",
-    "deploy-storybook": "npm run build-storybook && npx sb extract"
+    "build-storybook:deploy": "storybook build --disable-telemetry",
+    "deploy-storybook": "npm run build-storybook:deploy && npx sb extract"
   },
   "bugs": {
     "url": "https://github.com/Vbobell/design-system/issues"

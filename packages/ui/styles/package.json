@@ -27,7 +27,8 @@
     "dev": "postcss --output css/design-system-styles-ui.css src/styles.css --watch --verbose",
     "storybook": "storybook dev -p 6008",
     "build-storybook": "storybook build",
-    "deploy-storybook": "npm run build-storybook && npx sb extract"
+    "build-storybook:deploy": "storybook build --disable-telemetry",
+    "deploy-storybook": "npm run build-storybook:deploy && npx sb extract"
   },
   "storybook": {
     "url": "https://vbobell.github.io/design-system/styles"
