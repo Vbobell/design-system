@@ -1,0 +1,17 @@
+{
+  "v": 3,
+  "stories": {
+    "example-text--primary": {
+      "id": "example-text--primary",
+      "name": "Primary",
+      "title": "Example/Text",
+      "importPath": "./src/stories/atoms/text/Text.stories.tsx",
+      "kind": "Example/Text",
+      "story": "Primary",
+      "parameters": {
+        "fileName": "./src/stories/atoms/text/Text.stories.tsx",
+        "__isArgsStory": true
+      }
+    }
+  }
+}
