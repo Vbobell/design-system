@@ -7,13 +7,14 @@
     "build:react-ui": "lerna run build --scope=@vbobel/design-system-react-ui",
     "clean": "lerna clean",
     "dev": "lerna run --parallel dev",
-    "deploy-storybook": "lerna run --parallel deploy-storybook",
+    "deploy-storybook": "lerna run deploy-storybook",
     "postinstall": "npm run bootstrap",
     "prerelease": "npm run build",
     "prepare": "husky install",
     "prettier": "prettier --write .",
     "release": "lerna publish --conventional-commits --dist-tag latest",
-    "storybook": "lerna run --parallel storybook"
+    "storybook": "lerna run --parallel storybook",
+    "storybook:build-storybook": "lerna run --parallel build-storybook"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
