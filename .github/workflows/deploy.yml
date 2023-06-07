@@ -1,44 +1,46 @@
-# prettier-ignore
-name: Deploy to GitHub pages
-on: 
-  workflow_call:
-    jobs:
-      build:
-        runs-on: ubuntu-latest
+  # prettier-ignore
+  name: Deploy to GitHub pages
+  
+  on: 
+    workflow_call:
 
-        steps:
-        - name: Generate static storybook files
-        - uses: actions/checkout@v3
-        - uses: actions/setup-node@v3
-          with:
-            node-version: '18.16.0'
+  jobs:
+    build:
+      runs-on: ubuntu-latest
 
-        - run: npm ci
-        - run: npm run bootstrap
-        - run: npm run build
-        - run: npm run deploy-storybook
+      steps:
+      - name: Generate static storybook files
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18.16.0'
 
-        - name: Copy pages to docs
-          run: |
-            mkdir -p dist/docs
-            cp _config.yml ./dist/docs
-            cp README.md ./dist/docs
-            cp -r packages/ui/react/storybook-static ./dist/docs/react
-            cp -r packages/ui/styles/storybook-static ./dist/docs/styles
+      - run: npm ci
+      - run: npm run bootstrap
+      - run: npm run build
+      - run: npm run deploy-storybook
 
-        - name: Init new repo in storybook folder and commit generated files
-          run: |
-            cd dist
-            git init
-            git add -A
-            git config --local user.email "action@github.com"
-            git config --local user.name "GitHub Action"
-            git commit -m 'deploy'
+      - name: Copy pages to docs
+        run: |
+          mkdir -p dist/docs
+          cp _config.yml ./dist/docs
+          cp README.md ./dist/docs
+          cp -r packages/ui/react/storybook-static ./dist/docs/react
+          cp -r packages/ui/styles/storybook-static ./dist/docs/styles
 
-        - name: Publish github page
-          uses: ad-m/github-push-action@master
-          with:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
-            branch: gh-pages
-            force: true
-            directory: ./dist/docs
+      - name: Init new repo in storybook folder and commit generated files
+        run: |
+          cd dist
+          git init
+          git add -A
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m 'deploy'
+
+      - name: Publish github page
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          force: true
+          directory: ./dist/docs
