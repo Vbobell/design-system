@@ -1,5 +1,6 @@
 # prettier-ignore
 name: Deploy to GitHub pages
+on: [workflow_call]
 jobs:
   install:
     runs-on: ubuntu-latest

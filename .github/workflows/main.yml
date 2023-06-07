@@ -3,7 +3,7 @@ name: Release and deploy
 on:
   push:
     branches: [main]
-  jobs:
+jobs:
   release:
     uses: ./.github/workflows/release.yml
   deploy:
