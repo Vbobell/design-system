@@ -1,0 +1,11 @@
+# prettier-ignore
+name: Release and deploy
+on:
+  push:
+    branches: [main]
+  jobs:
+  release:
+    uses: ./.github/workflows/release.yml
+  deploy:
+    uses: ./.github/workflows/deploy.yml
+    needs: [release]
