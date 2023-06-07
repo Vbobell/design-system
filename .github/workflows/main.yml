@@ -1,13 +1,13 @@
-  # prettier-ignore
-  name: Release and deploy
-  on:
-    pull_request:
-      branches:
-        - main
-  jobs:
-    release:
-    - uses: ./.github/workflows/release.yml
+# prettier-ignore
+name: Release and deploy
+on:
+  push:
+    branches:
+      - main
+jobs:
+  release:
+  - uses: ./.github/workflows/release.yml
 
-    deploy:
-    - uses: ./.github/workflows/deploy.yml
-      needs: [release]
+  deploy:
+  - uses: ./.github/workflows/deploy.yml
+    needs: [release]
