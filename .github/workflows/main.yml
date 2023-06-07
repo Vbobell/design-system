@@ -5,7 +5,8 @@ on:
     branches: [main]
 jobs:
   release:
-    uses: ./.github/workflows/release.yml
+  - uses: ./.github/workflows/release.yml
+
   deploy:
-    uses: ./.github/workflows/deploy.yml
+  - uses: ./.github/workflows/deploy.yml
     needs: [release]
