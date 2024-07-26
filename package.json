@@ -1,26 +1,25 @@
 {
   "name": "@vbobel/design-system",
+  "workspaces": [
+    "packages/ui/*"
+  ],
   "scripts": {
-    "bootstrap": "lerna bootstrap --hoist",
-    "build": "lerna run build",
-    "build:styles-ui": "lerna run build --scope=@vbobel/design-system-styles-ui",
-    "build:react-ui": "lerna run build --scope=@vbobel/design-system-react-ui",
-    "clean": "lerna clean",
-    "dev": "lerna run --parallel dev",
-    "deploy-storybook": "lerna run deploy-storybook",
-    "postinstall": "npm run bootstrap",
-    "prerelease": "npm run build",
+    "build": "npm run build --workspaces",
+    "build:styles-ui": "npm run build --w packages/ui/styles",
+    "build:react-ui": "npm run build --w packages/ui/react",
+    "dev": "npm run dev --workspaces",
+    "deploy-storybook": "npm run deploy-storybook --workspaces",
+    "prerelease": "npm run build --workspaces",
     "prepare": "husky install",
     "prettier": "prettier --write .",
-    "release": "lerna publish --conventional-commits --dist-tag latest",
-    "storybook": "lerna run --parallel storybook",
-    "storybook:build-storybook": "lerna run --parallel build-storybook"
+    "release": "echo \"Create command with workspaces\" && exit 1",
+    "storybook": "npm run storybook --workspaces",
+    "storybook:build-storybook": "npm run build-storybook --workspaces"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
     "@commitlint/config-conventional": "^16.2.1",
     "husky": "^7.0.0",
-    "lerna": "^6.6.2",
     "prettier": "^2.5.1"
   }
 }
